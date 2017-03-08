@@ -1,0 +1,32 @@
+{
+  "name": "ctrlweb/badge-factor-showSubmission-addon",
+  "description": "Adds a filter to rendering achievements, a show detail link to submission details.",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "badgeos",
+    "wordpress"
+  ],
+  "homepage": "https://github.com/ctrlwebinc/badgeos-showSubmission-addon",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ctrlweb",
+      "homepage": "https://ctrlweb.ca/",
+      "email": "dev@ctrlweb.ca",
+      "role": "Developer"
+    },
+    {
+      "name": "Julien Lamarche",
+      "email": "jlam@credil.org",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/ctrlwebinc/badgeos-showSubmission-addon/issues",
+    "wiki": "https://github.com/ctrlwebinc/badgeos-showSubmission-addon/wiki"
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "php": ">=5.6"
+  }
+}

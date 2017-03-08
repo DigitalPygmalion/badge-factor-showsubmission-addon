@@ -1,18 +1,17 @@
 {
-  "name": "ctrlweb/badge-factor-showSubmission-addon",
+  "name": "DigitalPygmalion/badge-factor-showSubmission-addon",
   "description": "Adds a filter to rendering achievements, a show detail link to submission details.",
   "type": "wordpress-plugin",
   "keywords": [
     "badgeos",
     "wordpress"
   ],
-  "homepage": "https://github.com/ctrlwebinc/badgeos-showSubmission-addon",
+  "homepage": "https://github.com/DigitalPygmalion/badge-factor-showSubmission-addon",
   "license": "MIT",
   "authors": [
     {
       "name": "ctrlweb",
       "homepage": "https://ctrlweb.ca/",
-      "email": "dev@ctrlweb.ca",
       "role": "Developer"
     },
     {
@@ -22,8 +21,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/ctrlwebinc/badgeos-showSubmission-addon/issues",
-    "wiki": "https://github.com/ctrlwebinc/badgeos-showSubmission-addon/wiki"
+    "issues": "https://github.com/DigitalPygmalion/badge-factor-showSubmission-addon/issues",
+    "wiki": "https://github.com/DigitalPygmalion/badge-factor-showSubmission-addon/wiki"
   },
   "require": {
     "composer/installers": "~1.0",

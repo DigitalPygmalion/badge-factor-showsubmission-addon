@@ -54,7 +54,7 @@ class BadgeosShowSub_Plugin extends BadgeosShowSub_LifeCycle {
     public function addActionsAndFilters() {
 
         add_action('admin_menu', array(&$this, 'addSettingsSubMenuPage'));
-		add_filter('badgeos_render_achievement', array($this, 'addLinkToSubmission'), 10, 3);
+		add_filter('badgeos_render_achievement', array($this, 'addLinkToSubmission'), 10, 2);
 		add_filter('the_content', array($this, 'removeBadgeThumbnail'), 11);
 		add_filter('badgeos_get_submission_attachments', array($this, 'swapWordAttachmentProof'), 11);
     }
@@ -80,7 +80,7 @@ class BadgeosShowSub_Plugin extends BadgeosShowSub_LifeCycle {
     }
 
 
-    public function addLinkToSubmission($output, $achivementID, $mode) {
+    public function addLinkToSubmission($output, $achivementID) {
 		$displayedID = bp_displayed_user_id();
 
 		if(empty($displayedID)) {
